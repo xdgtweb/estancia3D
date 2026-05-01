@@ -1,0 +1,28 @@
+{
+  "name": "room-3d-measurements",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest --run",
+    "test:watch": "vitest",
+    "coverage": "vitest --run --coverage"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.0",
+    "@types/three": "^0.165.0",
+    "@vitest/coverage-v8": "^2.1.0",
+    "fast-check": "^4.0.0",
+    "jsdom": "^25.0.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.2",
+    "vitest": "^2.1.0"
+  },
+  "dependencies": {
+    "gsap": "^3.15.0",
+    "three": "^0.165.0"
+  }
+}
